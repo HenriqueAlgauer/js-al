@@ -1,7 +1,6 @@
 const livros = require('./listaLivros')
 
 let maisBarato = 0
-let maisCaro = 0
 
  for(let atual = 0; atual < livros.length; atual++){
     if(livros[atual].preco < livros[maisBarato].preco){
